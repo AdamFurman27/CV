@@ -28,6 +28,11 @@
 	width: 100%;
 }
 
+.task-list {
+	margin-top: 0;
+	margin-left: 7%;
+}
+
 body {
   display: block;
   height: 100%;
