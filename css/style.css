@@ -17,6 +17,11 @@
 	padding-left: 10%;
 }
 
+.wrapper-2 {
+	padding-top: 10%;
+	padding-left: 0;
+}
+
 .inner-wrapper {
 	display: block;
 	padding-left: 10%;
@@ -123,15 +128,94 @@ section {
 	display: inline-block;
 }
 
+.picture-2 {
+	width: 50%;
+	height: 600px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	left: 0;
+
+	/*margin-top: 8%;
+	margin-bottom: 10%;*/
+	/*background-color: blue;*/
+	position: absolute;
+	float: right;
+	z-index: -1;
+	/*position: absolute;*/
+	display: inline-block;
+}
+
+.picture-3 {
+	width: 100%;
+	height: 600px;
+	/*padding-top: 4%;
+	padding-bottom: 4%;*/
+	left: 0;
+
+	/*margin-top: 8%;
+	margin-bottom: 10%;*/
+	/*background-color: blue;*/
+	position: absolute;
+	z-index: -1;
+	/*position: absolute;*/
+	display: inline-block;
+}
+
+.picture-4 {
+	width: 25%;
+	height: 400px;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	right: 0;
+
+	/*margin-top: 8%;
+	margin-bottom: 10%;*/
+	/*background-color: blue;*/
+	position: absolute;
+	float: right;
+	z-index: -1;
+	/*position: absolute;*/
+	display: inline-block;
+}
+
+.picture-mcgill {
+	width: 100%;
+	height: 600px;
+	/*margin-top: 8%;
+	margin-bottom: 10%;*/
+	/*background-color: blue;*/
+	/*position: absolute;*/
+	display: inline-block;
+}
+
 .text {
 	width: 820px;
 	height: 600px;
 	display: inline-block;
 	position: absolute;
+}
 
+.text-2 {
+	height: 600px;
+	display: inline-block;
+	position: absolute;
+}
+
+.text-3 {
+	height: 600px;
+	display: inline-block;
+	position: absolute;
+	right: 5%;
 }
 
 .nyc-pic {
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	float: right;
+}
+
+.ga-pic {
 	height: 100%;
 	width: 100%;
 	display: inline-block;
@@ -182,7 +266,7 @@ section {
 h1 {
 	/*display: inline-block;*/
 	text-align: center;
-	font-size: 10em;
+	font-size: 8em;
 	height: 170px;
 	margin: 0;
 }
@@ -193,20 +277,25 @@ h1 {
 
 #education {
 	display: block;
+	font-size: 15em;
 	padding: 0;
+}
+
+.edu-wrapper {
+	padding-top: 8%;
 }
 
 #motto {
 	text-align: center;
-	font-size: 3em;
+	font-size: 5.5em;
+	position: relative;
+	margin-top: 6%;
 }
 
 .mtl-pic {
 	height: 500px;
-	width: 50%;
+	width: 100%;
 	right: 0;
-	margin-right: 50%;
-	margin-left: 10%;
 	z-index: -1;
 	position: absolute;
 }
@@ -228,18 +317,17 @@ h1 {
 }
 
 .mcgill-pic {
-	height: 600px;
+	height: 100%;
 	width: 50%;
-	right: 0;
+	left: 20px;
 	/*margin-right: 50%;*/
-	margin-left: 10%;
 	/*position: absolute;*/
 	z-index: -1;
 	transform: scaleX(-1);
 	display: inline-block;
 }
 
-.GA-pic {
+/*.GA-pic {
 	height: 500px;
 	width: 50%;
 	left: 0;
@@ -249,7 +337,7 @@ h1 {
 	position: absolute;
 	margin-bottom: 15%;
 	display: inline-block;
-}
+}*/
 
 .city-name {
 	z-index: 10;
@@ -311,6 +399,10 @@ h6 {
 
 .motto-1 {
 	margin-top: 5%;
+}
+
+.motto-2 {
+	padding-top: 5%;
 }
 
 .block6 {
@@ -517,6 +609,12 @@ li:hover {
     color: #ffffff;
 }
 
+.popup-with-form:hover {
+    background-color: #079fde;
+    color: #ffffff;
+    cursor:pointer;
+}
+
 .footer-block {
 	width: 100%;
 	height: 30px;
@@ -527,4 +625,31 @@ li:hover {
 	text-align: right;
 	padding-top: 3px;
 	padding-right: 15px;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
